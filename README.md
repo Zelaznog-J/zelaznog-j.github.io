@@ -4,8 +4,7 @@ Sitio web de portafolio para **Analista de Datos Geoespacial**, construido con
 HTML, CSS y JavaScript puros (sin frameworks ni build step), listo para
 publicarse gratis en **GitHub Pages**.
 
-🔗 Una vez publicado: `https://zelaznog-j.github.io/portafolio-geodata/`
-(o `https://zelaznog-j.github.io/` si el repositorio se llama así).
+🔗 Una vez publicado: **https://zelaznog-j.github.io/**
 
 ## Contenido
 
@@ -49,24 +48,19 @@ y visita `http://localhost:8000`.
 
 ## Publicar en GitHub Pages
 
-1. Crea un repositorio nuevo en GitHub (por ejemplo `portafolio-geodata`).
-2. Sube este proyecto:
-   ```bash
-   git init
-   git add .
-   git commit -m "Primer despliegue del portafolio"
-   git branch -M main
-   git remote add origin https://github.com/Zelaznog-J/portafolio-geodata.git
-   git push -u origin main
-   ```
-3. En GitHub: **Settings → Pages → Source**, selecciona la rama `main` y la
-   carpeta `/ (root)`. Guarda.
-4. En 1-2 minutos el sitio estará disponible en la URL que indica esa misma
-   página de configuración.
+Este proyecto vive en el repositorio **`zelaznog-j.github.io`** — por ser un
+repositorio de sitio de usuario, GitHub lo publica automáticamente en
+`https://zelaznog-j.github.io/` en cuanto se sube contenido a la rama `main`,
+sin pasos adicionales de configuración de Pages.
 
-> Tip: si en vez de `portafolio-geodata` nombras el repositorio
-> `zelaznog-j.github.io`, GitHub lo publica automáticamente en la raíz de tu
-> dominio de usuario, sin pasos adicionales de configuración.
+```bash
+git remote add origin https://github.com/Zelaznog-J/zelaznog-j.github.io.git
+git push -u origin main
+```
+
+En 1-2 minutos el sitio queda disponible en esa URL. Puedes verificar el
+estado del despliegue en la pestaña **Actions** del repositorio, o en
+**Settings → Pages**.
 
 ## Cómo personalizar
 
