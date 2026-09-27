@@ -11,9 +11,7 @@ publicarse gratis en **GitHub Pages**.
 - **Inicio**: presentación y enlaces de contacto.
 - **Sobre mí**: perfil profesional.
 - **Habilidades**: herramientas de análisis de datos, SIG y teledetección.
-- **Proyectos**: incluye un **mapa interactivo real** (Leaflet) con zonas de
-  ejemplo, y dos **gráficos interactivos** (Chart.js) de NDVI y rendimiento
-  agrícola. Los datos de estos tres elementos son **de demostración**.
+- **Proyectos**: sección pendiente de completar con proyectos reales.
 - **Experiencia**: áreas de trabajo (sector público, agroindustria, proyectos
   agroecológicos).
 - **Contacto**: email y LinkedIn.
@@ -29,9 +27,6 @@ portafolio_geodata/
 ├── LICENSE
 └── README.md
 ```
-
-Las librerías externas (Leaflet y Chart.js) se cargan desde CDN — no requiere
-instalar dependencias.
 
 ## Ver el sitio en tu computador
 
@@ -67,15 +62,10 @@ estado del despliegue en la pestaña **Actions** del repositorio, o en
 Este sitio se entrega con **contenido de ejemplo** que debes reemplazar por
 tu información real antes de compartirlo:
 
-- [ ] **Proyectos** (`index.html`, sección `#proyectos`): reemplaza los 4
-      proyectos de ejemplo por tus proyectos reales — actualiza título,
-      descripción, herramientas y el enlace `href` a cada repositorio de
-      GitHub real.
-- [ ] **Mapa** (`js/main.js`, arreglo `zonas`): reemplázalo por tus propios
-      datos geoespaciales (o cárgalo desde un archivo `.geojson` real con
-      `fetch`).
-- [ ] **Gráficos NDVI / rendimiento** (`js/main.js`): reemplaza los arreglos
-      `data` por resultados reales de tus análisis.
+- [ ] **Proyectos** (`index.html`, sección `#proyectos`): agrega tus
+      proyectos reales — título, descripción, herramientas y el enlace
+      `href` a cada repositorio de GitHub. Si vuelves a incluir un mapa o
+      gráficos interactivos, agrega Leaflet y/o Chart.js desde CDN de nuevo.
 - [ ] **Experiencia** (`index.html`, sección `#experiencia`): agrega cargos,
       instituciones y fechas reales si quieres mayor detalle.
 - [ ] **Foto de perfil**: el círculo con iniciales "JGM" es un placeholder;

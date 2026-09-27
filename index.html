@@ -9,7 +9,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -145,85 +144,11 @@
   <section class="section" id="proyectos">
     <div class="section-inner reveal">
       <span class="section-kicker">Proyectos</span>
-      <h2>Trabajo destacado</h2>
+      <h2>Próximamente</h2>
       <p class="section-lead">
-        Los siguientes proyectos son ejemplos ilustrativos del tipo de
-        análisis que realizo. Los mapas y gráficos son interactivos y
-        usan datos de demostración.
+        Estoy preparando proyectos reales de análisis geoespacial y
+        teledetección para mostrar aquí.
       </p>
-
-      <article class="project-featured">
-        <div class="project-featured-text">
-          <span class="project-tag">Proyecto destacado</span>
-          <h3>Mapa Interactivo de Zonas Agroecológicas</h3>
-          <p>
-            Clasificación y visualización de zonas de uso agrícola en un
-            territorio de ejemplo cercano a Concepción, construida con
-            GeoPandas para el procesamiento espacial y Leaflet para la
-            visualización web interactiva.
-          </p>
-          <ul class="tool-list">
-            <li>Python</li>
-            <li>GeoPandas</li>
-            <li>Leaflet.js</li>
-            <li>GeoJSON</li>
-          </ul>
-          <a class="btn btn-small btn-ghost" href="https://github.com/Zelaznog-J" target="_blank" rel="noopener">Ver repositorio →</a>
-        </div>
-        <div class="project-featured-map">
-          <div id="map" aria-label="Mapa interactivo de zonas agroecológicas de ejemplo"></div>
-          <ul class="map-legend">
-            <li><span class="swatch" style="background:#2a78d6"></span>Zona de riego</li>
-            <li><span class="swatch" style="background:#eb6834"></span>Zona de secano</li>
-            <li><span class="swatch" style="background:#1baf7a"></span>Zona silvoagropecuaria</li>
-          </ul>
-          <p class="map-caption">Datos de demostración con fines ilustrativos.</p>
-        </div>
-      </article>
-
-      <div class="project-grid">
-        <article class="project-card">
-          <span class="project-tag">Teledetección</span>
-          <h3>Monitoreo NDVI de Cultivos</h3>
-          <p>Serie temporal simulada del índice NDVI para detectar estrés hídrico en un cultivo de ejemplo.</p>
-          <div class="chart-wrap">
-            <canvas id="ndviChart" height="180" role="img" aria-label="Gráfico de línea con evolución mensual de NDVI de ejemplo"></canvas>
-          </div>
-          <ul class="tool-list">
-            <li>Google Earth Engine</li>
-            <li>Python</li>
-            <li>Chart.js</li>
-          </ul>
-          <a class="btn btn-small btn-ghost" href="https://github.com/Zelaznog-J" target="_blank" rel="noopener">Ver repositorio →</a>
-        </article>
-
-        <article class="project-card">
-          <span class="project-tag">Dashboard</span>
-          <h3>Rendimiento Agrícola por Comuna</h3>
-          <p>Comparación de rendimiento promedio (ton/ha) entre comunas, a partir de datos tabulares de ejemplo.</p>
-          <div class="chart-wrap">
-            <canvas id="yieldChart" height="180" role="img" aria-label="Gráfico de barras con rendimiento agrícola de ejemplo por comuna"></canvas>
-          </div>
-          <ul class="tool-list">
-            <li>SQL</li>
-            <li>Pandas</li>
-            <li>Chart.js</li>
-          </ul>
-          <a class="btn btn-small btn-ghost" href="https://github.com/Zelaznog-J" target="_blank" rel="noopener">Ver repositorio →</a>
-        </article>
-
-        <article class="project-card">
-          <span class="project-tag">Análisis multicriterio</span>
-          <h3>Modelización de Aptitud de Suelos</h3>
-          <p>Evaluación multicriterio en SIG para identificar zonas con mayor aptitud agrícola según pendiente, suelo y clima.</p>
-          <ul class="tool-list">
-            <li>QGIS</li>
-            <li>PostGIS</li>
-            <li>Álgebra de mapas</li>
-          </ul>
-          <a class="btn btn-small btn-ghost" href="https://github.com/Zelaznog-J" target="_blank" rel="noopener">Ver repositorio →</a>
-        </article>
-      </div>
     </div>
   </section>
 
@@ -270,8 +195,6 @@
   <p>© <span id="year"></span> Javiera González Mardones — Concepción, Chile.</p>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
