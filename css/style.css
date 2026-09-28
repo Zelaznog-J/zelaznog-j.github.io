@@ -328,7 +328,7 @@ a { color: inherit; }
 /* ---------- Projects ---------- */
 .project-featured {
   display: grid;
-  grid-template-columns: 1fr 1.1fr;
+  grid-template-columns: 1fr;
   gap: 32px;
   background: var(--surface);
   border: 1px solid var(--border);
@@ -369,15 +369,6 @@ a { color: inherit; }
 }
 #map {
   height: 300px;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--border);
-}
-.project-featured-map img {
-  display: block;
-  width: 100%;
-  max-height: 340px;
-  object-fit: contain;
-  background: var(--surface-alt);
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
 }
@@ -470,7 +461,6 @@ a { color: inherit; }
 @media (max-width: 860px) {
   .about-grid { grid-template-columns: 1fr; }
   .about-avatar { width: 100px; height: 100px; font-size: 1.4rem; }
-  .project-featured { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 720px) {
