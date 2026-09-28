@@ -144,11 +144,41 @@
   <section class="section" id="proyectos">
     <div class="section-inner reveal">
       <span class="section-kicker">Proyectos</span>
-      <h2>Próximamente</h2>
+      <h2>Trabajo destacado</h2>
       <p class="section-lead">
-        Estoy preparando proyectos reales de análisis geoespacial y
-        teledetección para mostrar aquí.
+        Casos reales de análisis geoespacial, con el razonamiento y las
+        decisiones detrás de cada resultado, no solo el producto final.
       </p>
+
+      <article class="project-featured">
+        <div class="project-featured-text">
+          <span class="project-tag">SIG · Datos abiertos</span>
+          <h3>Extracción de límites administrativos de Chile con Overture Maps</h3>
+          <p>
+            Flujo reproducible en Python para descargar, limpiar y exportar los
+            límites administrativos de Chile (país, regiones, provincias y
+            comunas) desde el dataset abierto Overture Maps. El bounding box
+            de descarga trae fragmentos de países vecinos por intersección
+            geométrica, así que en vez de ajustar un bbox no rectangular
+            filtré explícitamente por atributo (<code>country == "CL"</code>).
+            También documenté dos rutas de acceso a los mismos datos —
+            CLI oficial vs. consulta directa a los archivos Parquet con
+            DuckDB— y cuándo conviene cada una según se necesite fijar una
+            release exacta para reproducibilidad estricta o solo un flujo simple.
+          </p>
+          <ul class="tool-list">
+            <li>Python</li>
+            <li>GeoPandas</li>
+            <li>DuckDB</li>
+            <li>Overture Maps</li>
+          </ul>
+          <a class="btn btn-small btn-ghost" href="https://github.com/Zelaznog-J/extraccion-limites-administrativos-overture" target="_blank" rel="noopener">Ver repositorio →</a>
+        </div>
+        <div class="project-featured-map">
+          <img src="assets/proyecto-overture-chile.png" alt="Mapa de límites administrativos de Chile coloreados por nivel administrativo, generado a partir de datos de Overture Maps" loading="lazy">
+          <p class="map-caption">Salida del notebook: límites por subtipo administrativo (Overture Maps, theme divisions).</p>
+        </div>
+      </article>
     </div>
   </section>
 

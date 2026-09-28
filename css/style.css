@@ -372,6 +372,15 @@ a { color: inherit; }
   border-radius: var(--radius-md);
   border: 1px solid var(--border);
 }
+.project-featured-map img {
+  display: block;
+  width: 100%;
+  max-height: 340px;
+  object-fit: contain;
+  background: var(--surface-alt);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
 .map-legend {
   list-style: none;
   display: flex;
