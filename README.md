@@ -1,5 +1,5 @@
-**Geospatial Portfolio Website** 
-Construido con HTML, CSS y JavaScript.
+**Geospatial Portfolio Website**  
+Construido con HTML, CSS y JavaScript.  
 🔗 Disponible en: **https://zelaznog-j.github.io/**
 
 ## Contenido
