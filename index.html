@@ -101,6 +101,8 @@
             <li class="chip">Pandas</li>
             <li class="chip">SQL</li>
             <li class="chip">Jupyter</li>
+            <li class="chip">xarray</li>
+            <li class="chip">Dask</li>
           </ul>
         </div>
         <div class="skill-card">
@@ -118,6 +120,8 @@
             <li class="chip">Google Earth Engine</li>
             <li class="chip">Índices espectrales (NDVI)</li>
             <li class="chip">Imágenes satelitales</li>
+            <li class="chip">Reanálisis ERA5</li>
+            <li class="chip">NetCDF / Zarr</li>
           </ul>
         </div>
         <div class="skill-card">
@@ -140,6 +144,34 @@
       <p class="section-lead">
           Proyectos de análisis de datos geoespaciales, explicados paso a paso.
       </p>
+
+      <article class="project-featured">
+        <div class="project-featured-text">
+          <span class="project-tag">Datos climáticos · Reanálisis</span>
+          <h3>Precipitación en Chile 2000–2025 con ERA5</h3>
+          <p>
+            Procesé 26 años de precipitación diaria del reanálisis ERA5,
+            leída directamente desde ARCO-ERA5 en Google Cloud, para obtener
+            totales mensuales, estacionales y anuales, índices de extremos
+            tipo ETCCDI y tendencias en 5 zonas y 9 ciudades de Chile. El
+            flujo arma grafos perezosos con Dask y calcula cada producto una
+            sola vez. Lo validé por conservación de masa (error máximo de
+            0,007 mm entre escalas). El resultado más claro: el Centro pierde
+            147 mm por década (−17 %, p = 0,01), en línea con la megasequía.
+            También documenté dónde ERA5 se aleja de las observaciones, como
+            la sobreestimación de lluvia en el desierto costero.
+          </p>
+          <ul class="tool-list">
+            <li>Python</li>
+            <li>xarray</li>
+            <li>Dask</li>
+            <li>GeoPandas</li>
+            <li>ERA5</li>
+          </ul>
+          <a class="btn btn-small btn-primary" href="proyectos/precipitacion-era5/">Ver proyecto →</a>
+          <a class="btn btn-small btn-ghost" href="https://github.com/Zelaznog-J/exploring-era5-chile" target="_blank" rel="noopener">Ver repositorio →</a>
+        </div>
+      </article>
 
       <article class="project-featured">
         <div class="project-featured-text">

@@ -15,9 +15,11 @@ extra_css:
 
 plugins:
   - search
-  - mkdocs-jupyter
+  - mkdocs-jupyter:
+      ignore_h1_titles: true
 
 nav:
   - Portafolio: https://zelaznog-j.github.io/
   - Inicio: index.md
+  - Precipitación en Chile (ERA5): precipitacion-era5.ipynb
   # - Límites administrativos (Overture): overture.ipynb
