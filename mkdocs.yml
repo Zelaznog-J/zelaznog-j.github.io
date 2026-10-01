@@ -27,4 +27,5 @@ nav:
   - Portafolio: https://zelaznog-j.github.io/
   - Inicio: index.md
   - Precipitación en Chile (ERA5): precipitacion-era5/index.md
+  - Temperatura en Chile (ERA5): temperatura-era5/index.md
   # - Límites administrativos (Overture): overture.ipynb

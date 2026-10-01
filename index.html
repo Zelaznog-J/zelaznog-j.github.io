@@ -175,6 +175,35 @@
 
       <article class="project-featured">
         <div class="project-featured-text">
+          <span class="project-tag">Datos climáticos · Reanálisis</span>
+          <h3>Temperatura en Chile 2000–2025 con ERA5</h3>
+          <p>
+            Procesé 26 años de temperatura diaria (media, máxima y mínima) del
+            reanálisis ERA5 para obtener medias mensuales, estacionales y
+            anuales, índices de extremos tipo ETCCDI, grados-día de
+            crecimiento y calefacción, y tendencias en 5 zonas y 9 ciudades
+            de Chile. Reutilicé el flujo con Dask del proyecto de
+            precipitación y lo validé por conservación de medias entre
+            escalas. El resultado más claro: Chile se calienta 0,27 °C por
+            década (p = 0,001) y las máximas suben casi el doble que las
+            mínimas; en el Centro la máxima sube 0,53 °C por década y la
+            mínima casi no cambia. También documenté los límites de una
+            celda de 25 km frente a una estación puntual.
+          </p>
+          <ul class="tool-list">
+            <li>Python</li>
+            <li>xarray</li>
+            <li>Dask</li>
+            <li>GeoPandas</li>
+            <li>ERA5</li>
+          </ul>
+          <a class="btn btn-small btn-primary" href="proyectos/temperatura-era5/">Ver proyecto →</a>
+          <a class="btn btn-small btn-ghost" href="https://github.com/Zelaznog-J/exploring-era5-chile" target="_blank" rel="noopener">Ver repositorio →</a>
+        </div>
+      </article>
+
+      <article class="project-featured">
+        <div class="project-featured-text">
           <span class="project-tag">SIG · Datos abiertos</span>
           <h3>Extracción de límites administrativos con Overture Maps</h3>
           <p>Pendiente
