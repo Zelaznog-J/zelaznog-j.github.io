@@ -8,7 +8,7 @@ Casos de análisis geoespacial con el razonamiento y las decisiones detrás de c
 
 Agregación temporal y espacial de 26 años de precipitación diaria ERA5, con índices de extremos tipo ETCCDI y tendencias por zona y ciudad. Python, xarray, Dask y GeoPandas.
 
-[Ver resumen →](precipitacion-era5/index.md) · [Notebook completo](precipitacion-era5/notebook.ipynb) · [Repositorio en GitHub](https://github.com/Zelaznog-J/exploring-era5-chile)
+[Ver resumen →](precipitacion-era5/index.md) · [Repositorio en GitHub](https://github.com/Zelaznog-J/exploring-era5-chile)
 
 ## Próximamente
 

@@ -26,7 +26,5 @@ plugins:
 nav:
   - Portafolio: https://zelaznog-j.github.io/
   - Inicio: index.md
-  - Precipitación en Chile (ERA5):
-      - Resumen: precipitacion-era5/index.md
-      - Notebook completo: precipitacion-era5/notebook.ipynb
+  - Precipitación en Chile (ERA5): precipitacion-era5/index.md
   # - Límites administrativos (Overture): overture.ipynb

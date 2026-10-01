@@ -1,7 +1,6 @@
 # Precipitación en Chile 2000–2025 con ERA5
 
-[Notebook completo](notebook.ipynb){ .md-button .md-button--primary }
-[Repositorio en GitHub](https://github.com/Zelaznog-J/exploring-era5-chile){ .md-button }
+[Repositorio en GitHub](https://github.com/Zelaznog-J/exploring-era5-chile){ .md-button .md-button--primary }
 
 ## Resumen
 
