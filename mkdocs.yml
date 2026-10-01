@@ -1,0 +1,15 @@
+site_name: Proyectos · Javiera González Mardones
+site_url: https://zelaznog-j.github.io/proyectos/
+site_dir: proyectos
+
+theme:
+  name: material
+  language: es
+
+plugins:
+  - search
+  - mkdocs-jupyter
+
+nav:
+  - Inicio: index.md
+  # - Límites administrativos (Overture): overture.ipynb
