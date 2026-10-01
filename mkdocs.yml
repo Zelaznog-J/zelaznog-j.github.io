@@ -5,11 +5,19 @@ site_dir: proyectos
 theme:
   name: material
   language: es
+  font:
+    text: Manrope
+  palette:
+    primary: custom
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search
   - mkdocs-jupyter
 
 nav:
+  - Portafolio: https://zelaznog-j.github.io/
   - Inicio: index.md
   # - Límites administrativos (Overture): overture.ipynb
