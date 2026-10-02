@@ -16,6 +16,8 @@ Agregación de 26 años de temperatura diaria ERA5 (media, máxima y mínima), c
 
 [Ver resumen →](temperatura-era5/index.md) · [Repositorio en GitHub](https://github.com/Zelaznog-J/exploring-era5-chile)
 
-## Próximamente
+## Límites administrativos de Chile con Overture Maps
 
-- **Extracción de límites administrativos con Overture Maps**: Python, GeoPandas y DuckDB.
+Extracción de país, regiones, provincias y comunas desde Overture Maps, consultando GeoParquet en S3 con DuckDB y exportando por nivel a GeoJSON y GeoPackage. Python, DuckDB y GeoPandas.
+
+[Ver resumen →](overture/index.md) · [Repositorio en GitHub](https://github.com/Zelaznog-J/adm_bounds_overture)
