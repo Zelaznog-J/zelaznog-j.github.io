@@ -199,15 +199,25 @@
         <div class="project-featured-text">
           <span class="project-tag">Límites administrativos</span>
           <h3>Extracción de límites administrativos con Overture Maps</h3>
-          <p>Pendiente
+          <p>
+            Extraje los límites administrativos de Chile desde Overture Maps
+            con un flujo reproducible solo en DuckDB, que consulta los
+            GeoParquet directamente en S3 sin descargarlos completos. Filtré
+            por país y por límites terrestres, sin bbox, para conservar las
+            islas, y exporté un archivo por nivel a GeoJSON y GeoPackage. El
+            resultado: 16 regiones y 56 provincias completas, y 352
+            localidades para el nivel comunal. Documenté un hallazgo útil:
+            Chile no trae <code>localadmin</code> en Overture, las comunas
+            vienen como <code>locality</code> y no calzan 1:1 con las 346
+            oficiales. Estos límites son la máscara de mis proyectos ERA5.
           </p>
           <ul class="tool-list">
             <li>GeoPandas</li>
             <li>DuckDB</li>
             <li>Overture Maps</li>
           </ul>
-          <a class="btn btn-small btn-primary" href="proyectos/">Resumen</a>
-          <a class="btn btn-small btn-ghost" href="https://github.com/Zelaznog-J/extraccion-limites-administrativos-overture" target="_blank" rel="noopener">Ver repositorio →</a>
+          <a class="btn btn-small btn-primary" href="proyectos/overture/">Resumen</a>
+          <a class="btn btn-small btn-ghost" href="https://github.com/Zelaznog-J/adm_bounds_overture" target="_blank" rel="noopener">Ver repositorio →</a>
         </div>
       </article>
 
