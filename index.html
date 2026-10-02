@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Javiera González Mardones — Analista de Datos Geoespaciales</title>
+<title>Javiera González Mardones — Portafolio</title>
 <meta name="description" content="Portafolio de Javiera González Mardones, Ingeniera Agrónoma y Analista de Datos especializada en Sistemas de Información Geográfica y Teledetección.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -99,11 +99,9 @@
           <h3>Análisis de datos</h3>
           <ul class="chip-list">
             <li class="chip">Python</li>
-            <li class="chip">Pandas</li>
             <li class="chip">SQL</li>
-            <li class="chip">Jupyter</li>
-            <li class="chip">xarray</li>
-            <li class="chip">Dask</li>
+            <li class="chip">R</li>
+            
           </ul>
         </div>
         <div class="skill-card">
@@ -111,18 +109,14 @@
           <ul class="chip-list">
             <li class="chip">GeoPandas</li>
             <li class="chip">QGIS</li>
-            <li class="chip">PostGIS</li>
-            <li class="chip">GeoJSON</li>
           </ul>
         </div>
         <div class="skill-card">
           <h3>Teledetección</h3>
           <ul class="chip-list">
-            <li class="chip">Google Earth Engine</li>
-            <li class="chip">Índices espectrales (NDVI)</li>
-            <li class="chip">Imágenes satelitales</li>
-            <li class="chip">Reanálisis ERA5</li>
-            <li class="chip">NetCDF / Zarr</li>
+            <li class="chip">Índices espectrales</li>
+            <li class="chip">Cloud Native Remote Sensing</li>
+            <li class="chip">Google Earth Engine API y Colab</li>
           </ul>
         </div>
         <div class="skill-card">
@@ -141,21 +135,20 @@
   <section class="section" id="proyectos">
     <div class="section-inner reveal">
       <span class="section-kicker">Proyectos</span>
-      <h2>Trabajo destacado</h2>
       <p class="section-lead">
-          Proyectos de análisis de datos geoespaciales, explicados paso a paso.
+          Proyectos de análisis de datos geoespaciales.
       </p>
-
+      
       <article class="project-featured">
         <div class="project-featured-text">
-          <span class="project-tag">Datos climáticos · Reanálisis</span>
+          <span class="project-tag">Datos climáticos</span>
           <h3>Precipitación en Chile 2000–2025 con ERA5</h3>
           <p>
-            Procesé 26 años de precipitación diaria del reanálisis ERA5,
-            leída directamente desde ARCO-ERA5 en Google Cloud, para obtener
-            totales mensuales, estacionales y anuales, índices de extremos
-            tipo ETCCDI y tendencias en 5 zonas y 9 ciudades de Chile. El
-            flujo arma grafos perezosos con Dask y calcula cada producto una
+            Procesé 26 años de precipitación diaria del reanálisis ERA5 
+            (ARCO-ERA5), para obtener totales mensuales, 
+            estacionales y anuales, índices de extremos tipo ETCCDI y 
+            tendencias en 5 zonas y 9 ciudades de Chile. El flujo arma 
+            grafos perezosos con Dask y calcula cada producto una
             sola vez. Lo validé por conservación de masa (error máximo de
             0,007 mm entre escalas). El resultado más claro: el Centro pierde
             147 mm por década (−17 %, p = 0,01), en línea con la megasequía.
@@ -163,10 +156,10 @@
             la sobreestimación de lluvia en el desierto costero.
           </p>
           <ul class="tool-list">
-            <li>Python</li>
-            <li>xarray</li>
+            <li>Xarray</li>
             <li>Dask</li>
             <li>GeoPandas</li>
+            <li>Matplotlib</li>
             <li>ERA5</li>
           </ul>
           <a class="btn btn-small btn-primary" href="proyectos/precipitacion-era5/">Ver proyecto →</a>
@@ -180,11 +173,10 @@
           <h3>Temperatura en Chile 2000–2025 con ERA5</h3>
           <p>
             Procesé 26 años de temperatura diaria (media, máxima y mínima) del
-            reanálisis ERA5 para obtener medias mensuales, estacionales y
-            anuales, índices de extremos tipo ETCCDI, grados-día de
-            crecimiento y calefacción, y tendencias en 5 zonas y 9 ciudades
-            de Chile. Reutilicé el flujo con Dask del proyecto de
-            precipitación y lo validé por conservación de medias entre
+            reanálisis ERA5 (ARCO- ERA5) para obtener medias mensuales, estacionales
+            y anuales, índices de extremos tipo ETCCDI, grados-día de
+            crecimiento, y tendencias en 5 zonas y 9 ciudades de Chile.
+            Flujo perezoso con Dask y lo validé por conservación de medias entre
             escalas. El resultado más claro: Chile se calienta 0,27 °C por
             década (p = 0,001) y las máximas suben casi el doble que las
             mínimas; en el Centro la máxima sube 0,53 °C por década y la
@@ -192,10 +184,10 @@
             celda de 25 km frente a una estación puntual.
           </p>
           <ul class="tool-list">
-            <li>Python</li>
-            <li>xarray</li>
+            <li>Xarray</li>
             <li>Dask</li>
             <li>GeoPandas</li>
+            <li>Matplotlib</li>
             <li>ERA5</li>
           </ul>
           <a class="btn btn-small btn-primary" href="proyectos/temperatura-era5/">Ver proyecto →</a>
@@ -205,17 +197,16 @@
 
       <article class="project-featured">
         <div class="project-featured-text">
-          <span class="project-tag">SIG · Datos abiertos</span>
+          <span class="project-tag">Límites administrativos</span>
           <h3>Extracción de límites administrativos con Overture Maps</h3>
           <p>Pendiente
           </p>
           <ul class="tool-list">
-            <li>Python</li>
             <li>GeoPandas</li>
             <li>DuckDB</li>
             <li>Overture Maps</li>
           </ul>
-          <a class="btn btn-small btn-primary" href="proyectos/">Ver proyecto →</a>
+          <a class="btn btn-small btn-primary" href="proyectos/">Resumen</a>
           <a class="btn btn-small btn-ghost" href="https://github.com/Zelaznog-J/extraccion-limites-administrativos-overture" target="_blank" rel="noopener">Ver repositorio →</a>
         </div>
       </article>
@@ -229,10 +220,6 @@
   <section class="section section-alt" id="experiencia">
     <div class="section-inner reveal">
       <span class="section-kicker">Experiencia</span>
-      <h2>Trayectoria profesional</h2>
-      <p class="section-lead">
-        Sector público, agroindustria de exportación y proyectos agroecológicos.
-      </p>
       <a class="btn btn-primary" href="assets/CV_Javiera_Gonzalez_Mardones.pdf" target="_blank" rel="noopener" download>Descargar CV (PDF)</a>
     </div>
   </section>
@@ -243,7 +230,7 @@
       <h2>Conversemos</h2>
       <p class="section-lead">
         Estoy en búsqueda de oportunidades laborales o iniciativas de
-        voluntariado relacionadas con datos, SIG y territorio. Escríbeme.
+        voluntariado relacionadas con análisis de datos y territorio. Escríbeme.
       </p>
       <div class="contact-actions">
         <a class="btn btn-primary" href="mailto:javiera.fgm97@gmail.com">javiera.fgm97@gmail.com</a>
