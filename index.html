@@ -99,6 +99,34 @@
       
       <article class="project-featured">
         <div class="project-featured-text">
+          <span class="project-tag">Teledetección · Incendios</span>
+          <h3>Área quemada y severidad del incendio Penco–Lirquén con Sentinel-2</h3>
+          <p>
+            Estimé la superficie quemada y la severidad del incendio de
+            enero de 2026 en Penco con escenas Sentinel-2 consultadas por
+            STAC, sin descargar archivos. Enmascaré nubes por píxel, calculé
+            un dNBR corregido por offset estacional y elegí el umbral con el
+            método de Otsu, midiendo cuánto cambia el área según el umbral
+            (~20 %). Resultado: 5 392 ha quemadas en la comuna, cerca del
+            90 % con severidad moderada-alta o alta, y un 96,6 % de los
+            focos de calor VIIRS dentro del perímetro mapeado.
+          </p>
+          <ul class="tool-list">
+            <li>Sentinel-2</li>
+            <li>STAC</li>
+            <li>xarray</li>
+            <li>Dask</li>
+          </ul>
+          <a class="btn btn-small btn-primary" href="proyectos/incendio-penco/">Resumen</a>
+          <a class="btn btn-small btn-ghost" href="https://github.com/Zelaznog-J/incendio-penco-sentinel2" target="_blank" rel="noopener">Ver repositorio →</a>
+        </div>
+        <figure class="project-featured-image">
+          <img src="proyectos/incendio-penco/img/01_dnbr_severidad.png" alt="Mapas de dNBR corregido y de severidad del incendio de Penco y Lirquén">
+        </figure>
+      </article>
+
+      <article class="project-featured">
+        <div class="project-featured-text">
           <span class="project-tag">Datos climáticos</span>
           <h3>Precipitación en Chile 2000–2025 con ERA5</h3>
           <p>

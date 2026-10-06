@@ -26,6 +26,7 @@ plugins:
 nav:
   - Portafolio: https://zelaznog-j.github.io/
   - Inicio: index.md
+  - Incendio Penco–Lirquén (Sentinel-2): incendio-penco/index.md
   - Precipitación en Chile (ERA5): precipitacion-era5/index.md
   - Temperatura en Chile (ERA5): temperatura-era5/index.md
   - Límites administrativos (Overture): overture/index.md
