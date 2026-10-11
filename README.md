@@ -14,5 +14,6 @@
 - **Sobre mí**: perfil profesional.
 - **Habilidades**: herramientas de análisis de datos, SIG y teledetección.
 - **Proyectos**: sección en progreso ⛏️.
+- **Apuntes**: libro de Análisis, GeoComputación con Python y Teledetección, publicado desde el repo [apuntes](https://github.com/Zelaznog-J/apuntes) en https://zelaznog-j.github.io/apuntes/.
 - **Experiencia**: CV.
 - **Contacto**: email y LinkedIn.
