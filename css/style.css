@@ -107,8 +107,8 @@ a { color: inherit; }
   background-image:
     linear-gradient(
       180deg,
-      color-mix(in srgb, var(--brand-dark) 55%, transparent) 0%,
-      color-mix(in srgb, var(--brand) 35%, transparent) 100%
+      color-mix(in srgb, var(--brand-dark) 25%, transparent) 0%,
+      color-mix(in srgb, var(--brand) 10%, transparent) 100%
     ),
     url("../img/hero.webp");
   background-size: cover;
