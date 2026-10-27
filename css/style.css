@@ -110,7 +110,7 @@ a { color: inherit; }
       color-mix(in srgb, var(--brand-dark) 80%, transparent) 0%,
       color-mix(in srgb, var(--brand) 60%, transparent) 100%
     ),
-    url("D:\\Documents\\zelaznog-j.github.io\\img\\hero.webp");
+    url("../img/hero.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
