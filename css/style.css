@@ -103,13 +103,21 @@ a { color: inherit; }
 
 /* ---------- Header / Nav ---------- */
 .site-header {
-  background-color: var(--brand-dark); /* respaldo mientras carga la imagen */
+  background-color: var(--brand-dark);
   background-image:
+    /* 1. Degradado negro: oscuro arriba, transparente abajo */
     linear-gradient(
       180deg,
-      color-mix(in srgb, var(--brand-dark) 25%, transparent) 0%,
-      color-mix(in srgb, var(--brand) 10%, transparent) 100%
+      rgba(0, 0, 0, 0.55) 0%,
+      rgba(0, 0, 0, 0) 100%
     ),
+    /* 2. Capa verde (tu paleta) */
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--brand-dark) 55%, transparent) 0%,
+      color-mix(in srgb, var(--brand) 35%, transparent) 100%
+    ),
+    /* 3. Foto */
     url("../img/hero.webp");
   background-size: cover;
   background-position: center;
