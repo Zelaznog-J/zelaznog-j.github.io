@@ -114,8 +114,8 @@ a { color: inherit; }
     /* 2. Capa verde (tu paleta) */
     linear-gradient(
       180deg,
-      color-mix(in srgb, var(--brand-dark) 55%, transparent) 0%,
-      color-mix(in srgb, var(--brand) 35%, transparent) 100%
+      color-mix(in srgb, var(--brand-dark) 25%, transparent) 0%,
+      color-mix(in srgb, var(--brand) 10%, transparent) 100%
     ),
     /* 3. Foto */
     url("../img/hero.webp");
