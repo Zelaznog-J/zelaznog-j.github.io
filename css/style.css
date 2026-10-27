@@ -118,15 +118,6 @@ a { color: inherit; }
   position: relative;
   overflow: hidden;
 }
-.site-header::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image:
-    radial-gradient(circle at 15% 20%, rgba(255,255,255,0.08) 0, transparent 40%),
-    radial-gradient(circle at 85% 75%, rgba(255,255,255,0.10) 0, transparent 45%);
-  pointer-events: none;
-}
 
 .navbar {
   max-width: 1120px;
