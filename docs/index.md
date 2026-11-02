@@ -27,3 +27,9 @@ Agregación de 26 años de temperatura diaria ERA5 (media, máxima y mínima), c
 Extracción de país, regiones, provincias y comunas desde Overture Maps, consultando GeoParquet en S3 con DuckDB y exportando por nivel a GeoJSON y GeoPackage. Python, DuckDB y GeoPandas.
 
 [Ver resumen →](overture/index.md) · [Repositorio en GitHub](https://github.com/Zelaznog-J/adm_bounds_overture)
+
+## Límites administrativos reutilizables con FieldMaps
+
+Notebook que consulta ~180 mil polígonos remotos de FieldMaps con DuckDB y exporta a GeoJSON los límites de cualquier país o región, con selección interactiva y sin editar consultas. Python, DuckDB, GeoPandas y Lonboard.
+
+[Ver resumen →](fieldmaps/index.md) · [Repositorio en GitHub](https://github.com/Zelaznog-J/fieldmaps_boundaries)
