@@ -20,6 +20,8 @@ Notebook reutilizable que consulta el Parquet público de FieldMaps (`adm4_polyg
 
 ![Comuna de Penco (Región del Biobío) visualizada con Lonboard](img/01_mapa_penco.png){ width="520" }
 
+*Captura de una ejecución de ejemplo en Colab (2 de noviembre de 2026). El notebook se publica sin salidas guardadas, y las cifras pueden variar si FieldMaps actualiza la fuente.*
+
 ## Objetivos
 
 1. Construir un procedimiento reutilizable, sin ningún país fijado en el código.
