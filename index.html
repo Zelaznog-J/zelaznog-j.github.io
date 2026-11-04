@@ -101,6 +101,35 @@
       
       <article class="project-featured">
         <div class="project-featured-text">
+          <span class="project-tag">Límites administrativos</span>
+          <h3>FieldMaps | Límites administrativos reutilizables</h3>
+          <p>
+            Notebook en Python, SQL y DuckDB que consulta ~180 mil polígonos
+            remotos de FieldMaps y exporta a GeoJSON los límites de cualquier
+            país o región, sin editar consultas. La selección es en cascada
+            (ADM0, ADM1 y opcionalmente ADM3) con consultas SQL parametrizadas,
+            controles de geometrías nulas e inválidas y un mapa interactivo
+            con Lonboard. Dato a tener en cuenta: la fuente trae algunos
+            nombres con la codificación alterada, por lo que el notebook
+            permite elegir por número.
+          </p>
+          <ul class="tool-list">
+            <li>DuckDB</li>
+            <li>GeoPandas</li>
+            <li>SQL espacial</li>
+            <li>Lonboard</li>
+          </ul>
+          <a class="btn btn-small btn-primary" href="proyectos/fieldmaps/">Resumen</a>
+          <a class="btn btn-small btn-ghost" href="https://github.com/Zelaznog-J/fieldmaps_boundaries" target="_blank" rel="noopener">Ver repositorio →</a>
+          <a class="btn btn-small btn-ghost" href="https://colab.research.google.com/github/Zelaznog-J/fieldmaps_boundaries/blob/main/FieldMaps_geoboundaries_reutilizable.ipynb" target="_blank" rel="noopener">Abrir en Colab →</a>
+        </div>
+        <figure class="project-featured-image">
+          <img src="img/fieldmaps-penco.png" alt="Mapa interactivo de la comuna de Penco, Región del Biobío, generado con Lonboard a partir de los límites de FieldMaps">
+        </figure>
+      </article>
+      
+      <article class="project-featured">
+        <div class="project-featured-text">
           <span class="project-tag">Teledetección · Incendios</span>
           <h3>Área quemada y severidad del incendio Penco–Lirquén con Sentinel-2</h3>
           <p>
@@ -189,34 +218,6 @@
         </figure>
       </article>
 
-      <article class="project-featured">
-        <div class="project-featured-text">
-          <span class="project-tag">Límites administrativos</span>
-          <h3>FieldMaps | Límites administrativos reutilizables</h3>
-          <p>
-            Notebook en Python, SQL y DuckDB que consulta ~180 mil polígonos
-            remotos de FieldMaps y exporta a GeoJSON los límites de cualquier
-            país o región, sin editar consultas. La selección es en cascada
-            (ADM0, ADM1 y opcionalmente ADM3) con consultas SQL parametrizadas,
-            controles de geometrías nulas e inválidas y un mapa interactivo
-            con Lonboard. Dato a tener en cuenta: la fuente trae algunos
-            nombres con la codificación alterada, por lo que el notebook
-            permite elegir por número.
-          </p>
-          <ul class="tool-list">
-            <li>DuckDB</li>
-            <li>GeoPandas</li>
-            <li>SQL espacial</li>
-            <li>Lonboard</li>
-          </ul>
-          <a class="btn btn-small btn-primary" href="proyectos/fieldmaps/">Resumen</a>
-          <a class="btn btn-small btn-ghost" href="https://github.com/Zelaznog-J/fieldmaps_boundaries" target="_blank" rel="noopener">Ver repositorio →</a>
-          <a class="btn btn-small btn-ghost" href="https://colab.research.google.com/github/Zelaznog-J/fieldmaps_boundaries/blob/main/FieldMaps_geoboundaries_reutilizable.ipynb" target="_blank" rel="noopener">Abrir en Colab →</a>
-        </div>
-        <figure class="project-featured-image">
-          <img src="img/fieldmaps-penco.png" alt="Mapa interactivo de la comuna de Penco, Región del Biobío, generado con Lonboard a partir de los límites de FieldMaps">
-        </figure>
-      </article>
 
       <p class="section-lead">
         <a href="proyectos/">Ver todos los proyectos →</a>
