@@ -78,9 +78,10 @@
           <p>
             Ingeniera Agrónoma con especial interés por los datos y su aplicación 
             en la comprensión y resolución de problemáticas del ámbito agrícola y territorial. 
-            Tengo dominio de Excel, Python, R, SQL y QGIS. Además, tengo experiencia en el
-            uso de Google Earth Engine y herramientas del ecosistema geoespacial de Python para el 
-            procesamiento de imágenes satelitales, análisis geoespacial y procesamiento de datos en la nube.
+            Construyo este portafolio como un registro de mi proceso de formación y experimentación 
+            en ciencia de datos geoespaciales, abarcando el ecosistema geoespacial de Python, 
+            procesamiento de imágenes satelitales, PostgreSQL + PostGIS, computación en la nube, etc.
+            
           </p>
           <div class="about-meta">
             <span>📍 Concepción, Chile</span>
@@ -185,35 +186,6 @@
         </div>
         <figure class="project-featured-image">
           <img src="proyectos/temperatura-era5/img/01_mapas_climatologia_anual.png" alt="Mapas de temperatura media, máxima y mínima anual y amplitud del ciclo anual en Chile">
-        </figure>
-      </article>
-
-      <article class="project-featured">
-        <div class="project-featured-text">
-          <span class="project-tag">Límites administrativos</span>
-          <h3>Extracción de límites administrativos con Overture Maps</h3>
-          <p>
-            Extraje los límites administrativos de Chile desde Overture Maps
-            con un flujo reproducible en DuckDB, que consulta los
-            GeoParquet directamente en S3 sin descargarlos completos. Filtré
-            por país y por límites terrestres, sin bbox, para conservar las
-            islas, y exporté un archivo por nivel a GeoJSON y GeoPackage. El
-            resultado: 16 regiones y 56 provincias completas, y 352
-            localidades asociadas al nivel comunal. Información importante:
-            Chile no trae <code>localadmin</code> en Overture, las comunas
-            vienen como <code>locality</code> y no calzan 1:1 con las 346
-            oficiales, es posible que existan duplicados.
-          </p>
-          <ul class="tool-list">
-            <li>GeoPandas</li>
-            <li>DuckDB</li>
-            <li>Overture Maps</li>
-          </ul>
-          <a class="btn btn-small btn-primary" href="proyectos/overture/">Resumen</a>
-          <a class="btn btn-small btn-ghost" href="https://github.com/Zelaznog-J/adm_bounds_overture" target="_blank" rel="noopener">Ver repositorio →</a>
-        </div>
-        <figure class="project-featured-image">
-          <img src="proyectos/overture/img/01_niveles_administrativos.png" alt="Mapa de Chile con límites administrativos de regiones, provincias y localidades extraídos de Overture Maps">
         </figure>
       </article>
 
